@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(140, 216, 222);
+    font-family: Arial, sans-serif;
+    margin: 15px;
+    padding: 0;
+}
+/* Marvel-themed classes */
+.iron-man {
+    background-color: red; /* Red */
+    color: white;
+    font-weight: bold;
+    border: 2px solid gold; /* Gold */
+}
+
+.captain-america {
+    background-color: lightblue; /* Navy blue */
+    color: red;
+    font-weight: bold;
+    border: 2px solid white; /* White */
+
+.thor {
+    background-color: gold; /* Gold */
+    color: black; /* Black */
+    font-weight: bold;
+    border: 2px solid blue; /* Blue */
+}
+
+.avengers {
+    background: linear-gradient(to right, red, blue, gold); /* Red, blue, gold */
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.marvel-hero {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Impact', sans-serif;
+}
+
+/* Marvel-themed IDs */
+#marvelHeader {
+    text-align: center;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 20px;
+}
+
+#ironManSection {
+    background-color: #ff0000;
+    color: white;
+}
+
+#captainAmericaSection {
+    background-color: #000080;
+    color: white;
+}
