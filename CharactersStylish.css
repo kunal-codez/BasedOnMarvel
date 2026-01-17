@@ -26,3 +26,12 @@ nav ul {
         nav ul li a:hover {
             text-decoration: underline;
         }
+footer div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+footer div h2, footer div p {
+    margin: 0;
+}
