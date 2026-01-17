@@ -4,8 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS BoxModel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bubbler+One&display=swap" rel="stylesheet">
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bubbler+One&display=swap');
         *{
+            font-family: 'Bubbler One', cursive;
             margin: 0;
             padding: 0;
         }
@@ -20,6 +25,7 @@
             margin: 20px;
         }
         .box2{
+            font-size: medium;
             width: 150px;
             height: 20px;
             border: 5px solid brown;
@@ -27,9 +33,57 @@
             margin: 30px;
         }
     </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bubbler+One&display=swap');
+        h1{
+            font-family: 'Bubbler One', cursive;
+            font-size: 40px;
+            text-decoration:wavy underline;
+            text-align: center;
+            margin: 20px;
+        }
+        p{
+            font-family: 'Bubbler One', cursive;
+            font-size: 25px;
+            color: purple;
+            line-height: 1.2;
+            letter-spacing: 1.2px;
+            font-style: italic;
+            font-weight: bold;
+            text-align: justify;
+        }
+        /*
+        h2{
+            text-transform:capitalize;
+            text-transform:uppercase;
+            text-transform:lowercase;
+            text-transform:full-width;
+        }
+        */
+        h2{
+            text-transform:capitalize;
+            text-decoration: underline overline;
+            text-decoration-color: aqua;
+        }
+        .lorem{
+            border: 2px solid black;
+            width: 145px;
+            word-break: break-all;  
+            text-indent: 45px;
+            text-overflow:ellipsi s;
+            overflow: hidden;
+        }
+    </style>
 </head>
 <body>
     <div class="box box1">I am the first box</div>
     <div class="box box2">I am the second box</div>
+    <div>
+        <h1>Fonts</h1>
+        <h2>aboUt Fonts</h2>
+    </div>
+    <div>
+        <p class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, id nisi, quam consequuntur asperiores voluptates suscipit possimus, magnam dolorum aliquam ab! Placeat mollitia a dolorum voluptatibus impedit officia veritatis, aliquam neque eius atque iure quo deleniti repellendus ipsam nesciunt quidem voluptates. Ipsum distinctio perspiciatis explicabo.</p>
+    </div>
 </body>
 </html>
