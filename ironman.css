@@ -1,3 +1,8 @@
+body{
+    margin:0;
+    height:100ph;
+    background-color: radial-gradient(circle, red, black);
+}
 header{
     background-color: #666262;
     color: white;

@@ -21,10 +21,12 @@ nav ul li a {
     color: white;
     text-decoration: none;
 }
-#blackwidow h2 {
-    margin: 30px;
-    padding: 20px;
-    background-color: #976c6c;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+nav ul li a:hover {
+    text-decoration: none;
+}  
+footer{
+    background-color: #858181;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
 }
