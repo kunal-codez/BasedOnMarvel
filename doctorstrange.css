@@ -1,11 +1,11 @@
 body{
     margin: 0;
     height: 100vh;
-    background-color: radial-gradient(circle, red, black);
+    background: radial-gradient(circle, rgba(250, 59, 59, 0.973), rgba(46, 46, 46, 0.786));
     color: white
 }
 header{
-    background-color: #666262;
+    background-color: #858181;
     color: white;
     padding: 0% 10px;
     text-align: center;
@@ -38,4 +38,7 @@ footer{
     color: white;
     padding: 10px 0;
     text-align: center;
+}
+#doctorstrange {
+    margin:10px
 }

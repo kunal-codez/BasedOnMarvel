@@ -1,7 +1,7 @@
 body {
   margin: 0;
   height: 100vh;
-  background: radial-gradient(circle, rgba(239, 79, 79, 0.704), rgb(65, 63, 63, 0.705));
+  background: radial-gradient(circle, rgba(250, 59, 59, 0.973), rgba(46, 46, 46, 0.786));
 }
 header {
     background-color: #858181;
